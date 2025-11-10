@@ -174,7 +174,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6805419928854574526, guid: 2b9e5d70dea4da54b892b35aeef22dae, type: 3}
   m_PrefabInstance: {fileID: 2762694071236877041}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &480175033
+--- !u!114 &480175026
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,23 +183,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 480175019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3428d94b51a09f240be594f615580a05, type: 3}
+  m_Script: {fileID: 11500000, guid: 77c95fcb23fbf834db4089a08b149422, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerStateMachine
-  statesRefs:
-  - typeName: IdleState
-  - typeName: MovingState
-  _rb: {fileID: 0}
-  _movementValidator: {fileID: 0}
-  _animator: {fileID: 0}
-  _spriteRenderer: {fileID: 0}
-  _onMoveInput: {x: 0, y: 0}
-  _gridPosition: {x: 0, y: 0, z: 0}
-  _jumpAnimDuration: 0
-  _jumpAnimationNormalizedTime: 0
-  _isMoving: 0
-  _direction: 0
-  _disableInput: 0
+  m_EditorClassIdentifier: Assembly-CSharp::StateMachineBlueprint
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -45289,7 +45275,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6805419928854574526, guid: 2b9e5d70dea4da54b892b35aeef22dae, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 480175033}
+      addedObject: {fileID: 480175026}
   m_SourcePrefab: {fileID: 100100000, guid: 2b9e5d70dea4da54b892b35aeef22dae, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

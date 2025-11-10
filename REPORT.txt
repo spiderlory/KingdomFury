@@ -1,0 +1,104 @@
+Gioco Costruito dopo aver terminato vari tutorial su come costruire un gioco in 2D.
+
+Idea del gioco:
+RPG a turni con visuale isometrica.
+Setting: Medioevo,
+Storia: Non necessario approfondire
+Componenti Base:
+	Sistema di combattimento a turni
+	Mappa isometrica:
+        Il giocatore si sposta in una mappa isometrica
+        Deve rispettando possibili vincoli sul movimento, come: presenza di staccionate o fiumi, dislivelli, etc..
+	
+	Inventario:
+        Il gioco prevede la possibilità di trovare loot: pozioni di cura da usare durante gli scontri, armi e armature che possono essere equipaggiate
+	Gestione dei personaggi: 
+		Idealmente nel gioco si possono scegliere 3 personaggi che faranno parte della squadra.
+		Questi possono essere scelti da un insieme di personaggi che hanno caratteristiche diverse (Da definirsi)
+        I personaggi possono essere equipaggiati con strumenti trovati in seguito alle battaglie o nel mondo
+    Vendors:
+        possibilità di aquistare cose da vendor in cambio di denaro
+
+
+1) Test Iniziale
+Ho effettuato alcuni test per capire in che modo devo strutturare il gioco e le limitazioni e difficoltà che incontrerò durante lo sviluppo.
+La prima scelta sta sulla possibilità di fare il gioco in 2D o 3D.
+
+Ho optato per il 2d dato che voglio mettere alla prova le conoscenze acquisite con i tutorial.
+
+1.1) Movimento del giocatore
+Il primo problema è lo spostamento del giocatore all'interno della mappa.
+Ho analizzato diversi approcci al movimento:
+    movimento semplice: spostamento rispetto ad una base di vettori che rappresenta lo il mondo isometrico. Per determinare se mi posso spostare in una casella utilizzo un trigger/raycast per vedere se la casella vicina ha un hitbox o strategie simili
+    utilizzo di un grafo per determinare gli spostamenti
+
+La soluzione migliore sembra quella di utilizzare un grafo per gestire gli spostamenti, anche se a livello computazionale può risultare più pesante.
+ La scelta dipende molto dalla possibilità di aggiungere piattaforme ad altezze diverse. Un grafo mi permetterebbe di gestire il cambio di altezza nel momento in cui devo passare da un livello all'altro.
+
+Per creare il grafo l'idea è quella di costruire una tile personalizzata che contiene l'info isWalkable. Questo mi permette di determinare se mi posso spostare su quella casella.
+Quando il gioco inizia posso costruire il grafo utilizzando la tilemap. Semplicemente itero su ogni tile e analizzo i tile vicini, se sono isWalkable allora aggiungo un arco altrimenti no.
+Al posto di utilizzare un grafo globbale può essere il caso di effettuare la scelta ogni volta analizzando i tile vicini.
+La scelta dipende dalla presenza di elementi con altezze diverse.
+
+1.2) Gestione elementi con altezza diversa
+In 2d Gestire elementi che hanno altezze diverse utilizzando le tilemaps risulta complicata. Non ho trovato un modo per decidere la priorità di rendering che mi permettesse di ottenere l'effetto desiderato.
+
+Le opzioni sono:
+    Utilizzare tilemap divese per ogni altezza in gioco. Va bene solo per un numero limitato di elementi?
+
+Tramite l'opzione tile ancor all'interno della tilemap ho notato che posso mettere un offset sulla posizione delle tile. Questo mi permette di simulare un cambio di altezza ma posizionare lo sprite sulla stessa casella in ogni layer.
+
+Al posto di utilizzare rampe preferisco utilizzare tile di "altezza" (parlo di altezza grafica) pari alla metà della griglia. Se la differenza è di un solo gradino il Player può muoversi, altrimenti no.
+
+A questo punto per il movimento mi basta determinare l'altezza della casella affianco e il flag.
+
+Potrebbe essere utile generare una struttura dati che rappresenti la mappa.
+Ad esempio una matrice che mi indica l'altezza dei blocchi può essere molto utile.
+
+1.3) Movimento del giocatore 2
+Dopo l'analisi ho deciso di utilizzare altezze diverse. Questo viene fatto visivamente utilizzando una tilemap per ogni layer. Logicamente ad inizio gioco mi calcolo una matrice delle altezze che mi permette di poi di decidere velocemente come mi posso muovere nella mappa.
+Logicamente ogni casella ha una propria altezza, materiale e possibilità di essere attraversata. Queste informazioni le devo ricavare a partire dalle tilemap.
+
+Come primo approccio tento di costruire una matrice delle altezze analizzando le tilemap iterativamente.
+
+
+
+Ho preferito procedere con la generazione di un grafo utilizzando una sottoclasse delle tiles.
+
+
+ 
+
+RESET DEL REPORT
+
+1) Movimento del giocatore:
+    il giocatore e gli altri elementi si sposteranno all'interno di una griglia isometrica. 
+    Il giocatore deve muoversi rispettando i seguenti vincoli:
+        orizontalmente o verticalmente
+        la casella deve essere adiacente
+        la casella deve essere attraversabile
+        la casella può stare al più ad una distanza di 1 in altezza
+
+2) Creazione mappa isometrica:
+    La mappa è stata creata utilizzando una tilemap e impostando il trasparency sort mode a custom axis con 0, 1, 1
+    Affinché questo funzioni tutti gli oggetti devono avere il pivot in basso.
+
+Gestione Mondo Aperto:
+    Gestione del movimento:
+        Per gestire il movimento del personaggio è stato creato un MovementValidator che determina se a partire da una casella A il giocatore si può muovere verso una certa direzione.
+        La direzione viene passata come un vettore intero [x, y] con x in {-1, 0, 1}, y in {-1, 0, 1} e x e y non possono conteporaneamente essere diversi da zero.
+        Nel caso in cui sia x che y siano diversi da sero viene data la priorità ad x e y viene posto a 0.
+
+        Il validatore costruisce una matrice centrata tridimensionale M che rappresenta il mondo circostante al giocatore, dove M[y, x, z] = 1 se il tile in x, y, z è attraversabile, 0 altrimenti.
+        
+        La matrice viene simulata utilizzando un vettore.
+
+        Questa matrice viene ricalcolata ogni volta che il personaggio esegue un movimento.
+
+        Il validatore viene aggiunto come una componente sull'oggetto.
+
+    Animazioni personaggio:
+        E' stata creata una sola animazione di salto, il movimento viene gestito manipolando la posizione del personaggio.
+        Le due cose sono sincronizzate utilizzando il normalized time dell'animazione di salto. In questo modo è possibile cambiare la velocità del salto semplicemente modificando la velocità della clip nell'animator.
+
+Gestione del combattimento:
+    
