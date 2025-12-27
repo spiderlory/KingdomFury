@@ -181,12 +181,12 @@ TextureImporter:
       name: MiniHalberdMan_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 160
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 161
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: MiniHalberdMan_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 160
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 41
+        y: 161
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: MiniHalberdMan_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 160
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 73
+        y: 161
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: MiniHalberdMan_3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 160
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 105
+        y: 161
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: MiniHalberdMan_4
       rect:
         serializedVersion: 2
-        x: 7
-        y: 128
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 129
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: MiniHalberdMan_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 128
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 41
+        y: 129
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,12 +313,12 @@ TextureImporter:
       name: MiniHalberdMan_6
       rect:
         serializedVersion: 2
-        x: 72
-        y: 128
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 73
+        y: 129
+        width: 13
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: MiniHalberdMan_7
       rect:
         serializedVersion: 2
-        x: 104
-        y: 128
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 105
+        y: 129
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: MiniHalberdMan_8
       rect:
         serializedVersion: 2
-        x: 136
-        y: 128
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 129
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -379,12 +379,12 @@ TextureImporter:
       name: MiniHalberdMan_9
       rect:
         serializedVersion: 2
-        x: 167
-        y: 128
-        width: 17
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 168
+        y: 129
+        width: 15
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -401,12 +401,12 @@ TextureImporter:
       name: MiniHalberdMan_10
       rect:
         serializedVersion: 2
-        x: 7
-        y: 96
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 97
+        width: 15
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -423,12 +423,12 @@ TextureImporter:
       name: MiniHalberdMan_11
       rect:
         serializedVersion: 2
-        x: 40
-        y: 96
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 41
+        y: 97
+        width: 14
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -445,12 +445,12 @@ TextureImporter:
       name: MiniHalberdMan_12
       rect:
         serializedVersion: 2
-        x: 72
-        y: 96
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 73
+        y: 97
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -467,12 +467,12 @@ TextureImporter:
       name: MiniHalberdMan_13
       rect:
         serializedVersion: 2
-        x: 7
-        y: 64
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 65
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -489,12 +489,12 @@ TextureImporter:
       name: MiniHalberdMan_14
       rect:
         serializedVersion: 2
-        x: 38
-        y: 64
-        width: 15
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 39
+        y: 65
+        width: 13
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -511,12 +511,12 @@ TextureImporter:
       name: MiniHalberdMan_15
       rect:
         serializedVersion: 2
-        x: 72
-        y: 64
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 73
+        y: 65
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -533,12 +533,12 @@ TextureImporter:
       name: MiniHalberdMan_16
       rect:
         serializedVersion: 2
-        x: 106
-        y: 64
-        width: 22
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 107
+        y: 65
+        width: 20
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -555,12 +555,12 @@ TextureImporter:
       name: MiniHalberdMan_17
       rect:
         serializedVersion: 2
-        x: 138
-        y: 64
-        width: 23
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 139
+        y: 65
+        width: 21
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -577,12 +577,12 @@ TextureImporter:
       name: MiniHalberdMan_18
       rect:
         serializedVersion: 2
-        x: 169
-        y: 64
-        width: 21
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 170
+        y: 65
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -599,12 +599,12 @@ TextureImporter:
       name: MiniHalberdMan_19
       rect:
         serializedVersion: 2
-        x: 8
-        y: 32
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 33
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -621,12 +621,12 @@ TextureImporter:
       name: MiniHalberdMan_20
       rect:
         serializedVersion: 2
-        x: 37
-        y: 32
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 38
+        y: 33
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -643,12 +643,12 @@ TextureImporter:
       name: MiniHalberdMan_21
       rect:
         serializedVersion: 2
-        x: 70
-        y: 32
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 71
+        y: 33
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -665,12 +665,12 @@ TextureImporter:
       name: MiniHalberdMan_22
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 1
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -687,12 +687,12 @@ TextureImporter:
       name: MiniHalberdMan_23
       rect:
         serializedVersion: 2
-        x: 40
-        y: 0
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 41
+        y: 1
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -709,12 +709,12 @@ TextureImporter:
       name: MiniHalberdMan_24
       rect:
         serializedVersion: 2
-        x: 71
-        y: 0
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 72
+        y: 1
+        width: 19
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -731,12 +731,12 @@ TextureImporter:
       name: MiniHalberdMan_25
       rect:
         serializedVersion: 2
-        x: 102
-        y: 0
-        width: 22
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 103
+        y: 1
+        width: 20
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -753,12 +753,12 @@ TextureImporter:
       name: MiniHalberdMan_26
       rect:
         serializedVersion: 2
-        x: 134
-        y: 0
-        width: 22
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 135
+        y: 1
+        width: 20
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -775,7 +775,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e95fbf1535af77c48bb8ffed0ccc7525
     internalID: 0
     vertices: []
     indices: 
@@ -783,7 +783,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       MiniHalberdMan_0: 7615383899009855311
       MiniHalberdMan_1: 2993981637866810112

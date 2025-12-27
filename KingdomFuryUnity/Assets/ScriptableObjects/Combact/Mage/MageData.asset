@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b649472b1f2f21e499c5760c2e2dfb57, type: 3}
+  m_Name: MageData
+  m_EditorClassIdentifier: Assembly-CSharp::TurnBasedCombact.SO.CombactUnitDataSO
+  stats:
+    health: 0
+    impetus: 0
+    attack: 0
+    defence: 0
+    speed: 2
+    affinity: 0
+  hitClip: {fileID: 7400000, guid: 1ef78df179e1192479ae71cca9b0b486, type: 2}
+  healClip: {fileID: 7400000, guid: 7c02416cf16596f4fb71dfd40f5f5b19, type: 2}
+  deathClip: {fileID: 7400000, guid: dfc7bbdbd52d98e4783258e5673da975, type: 2}
+  idleClip: {fileID: 7400000, guid: f23dbc246f41d4a47bbb7664e7c97752, type: 2}
+  walkingClip: {fileID: 7400000, guid: de5de9b49f972044689a06ca40d587ac, type: 2}
+  actions:
+  - {fileID: 11400000, guid: c5606e26beeb02f47bf01052531560fb, type: 2}
+  - {fileID: 11400000, guid: a77f25d97897e224784c88eee85aa802, type: 2}

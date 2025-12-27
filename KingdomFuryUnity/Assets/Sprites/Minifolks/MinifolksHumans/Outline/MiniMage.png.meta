@@ -259,12 +259,12 @@ TextureImporter:
       name: MiniMage_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 224
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 225
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: MiniMage_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 224
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 42
+        y: 225
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: MiniMage_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 224
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 74
+        y: 225
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,12 +325,12 @@ TextureImporter:
       name: MiniMage_3
       rect:
         serializedVersion: 2
-        x: 105
-        y: 224
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 106
+        y: 225
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -347,12 +347,12 @@ TextureImporter:
       name: MiniMage_4
       rect:
         serializedVersion: 2
-        x: 8
-        y: 192
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 193
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,12 +369,12 @@ TextureImporter:
       name: MiniMage_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 192
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 41
+        y: 193
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -391,12 +391,12 @@ TextureImporter:
       name: MiniMage_6
       rect:
         serializedVersion: 2
-        x: 73
-        y: 192
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 74
+        y: 193
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,12 +413,12 @@ TextureImporter:
       name: MiniMage_7
       rect:
         serializedVersion: 2
-        x: 105
-        y: 192
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 106
+        y: 193
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: MiniMage_8
       rect:
         serializedVersion: 2
-        x: 137
-        y: 192
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 138
+        y: 193
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: MiniMage_9
       rect:
         serializedVersion: 2
-        x: 169
-        y: 192
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 170
+        y: 193
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -479,12 +479,12 @@ TextureImporter:
       name: MiniMage_10
       rect:
         serializedVersion: 2
-        x: 8
-        y: 160
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 161
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -501,12 +501,12 @@ TextureImporter:
       name: MiniMage_11
       rect:
         serializedVersion: 2
-        x: 39
-        y: 161
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 40
+        y: 162
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -523,12 +523,12 @@ TextureImporter:
       name: MiniMage_12
       rect:
         serializedVersion: 2
-        x: 71
-        y: 160
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 72
+        y: 161
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -545,12 +545,12 @@ TextureImporter:
       name: MiniMage_13
       rect:
         serializedVersion: 2
-        x: 9
-        y: 128
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 129
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -567,12 +567,12 @@ TextureImporter:
       name: MiniMage_14
       rect:
         serializedVersion: 2
-        x: 41
-        y: 128
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 42
+        y: 129
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -589,12 +589,12 @@ TextureImporter:
       name: MiniMage_15
       rect:
         serializedVersion: 2
-        x: 73
-        y: 128
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 74
+        y: 129
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -611,12 +611,12 @@ TextureImporter:
       name: MiniMage_16
       rect:
         serializedVersion: 2
-        x: 105
-        y: 128
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 106
+        y: 129
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -633,12 +633,12 @@ TextureImporter:
       name: MiniMage_17
       rect:
         serializedVersion: 2
-        x: 136
-        y: 128
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 129
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -655,12 +655,12 @@ TextureImporter:
       name: MiniMage_18
       rect:
         serializedVersion: 2
-        x: 168
-        y: 128
-        width: 23
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 169
+        y: 129
+        width: 21
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -677,12 +677,12 @@ TextureImporter:
       name: MiniMage_19
       rect:
         serializedVersion: 2
-        x: 200
-        y: 128
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 201
+        y: 129
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -699,12 +699,12 @@ TextureImporter:
       name: MiniMage_20
       rect:
         serializedVersion: 2
-        x: 232
-        y: 128
-        width: 25
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 233
+        y: 129
+        width: 23
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -721,12 +721,12 @@ TextureImporter:
       name: MiniMage_21
       rect:
         serializedVersion: 2
-        x: 264
-        y: 128
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 265
+        y: 129
+        width: 22
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -743,12 +743,12 @@ TextureImporter:
       name: MiniMage_22
       rect:
         serializedVersion: 2
-        x: 296
-        y: 128
-        width: 23
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 297
+        y: 129
+        width: 21
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -765,12 +765,12 @@ TextureImporter:
       name: MiniMage_23
       rect:
         serializedVersion: 2
-        x: 328
-        y: 128
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 329
+        y: 129
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -787,12 +787,12 @@ TextureImporter:
       name: MiniMage_24
       rect:
         serializedVersion: 2
-        x: 9
-        y: 96
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 97
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -809,12 +809,12 @@ TextureImporter:
       name: MiniMage_25
       rect:
         serializedVersion: 2
-        x: 41
-        y: 96
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 42
+        y: 97
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -831,12 +831,12 @@ TextureImporter:
       name: MiniMage_26
       rect:
         serializedVersion: 2
-        x: 70
-        y: 96
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 71
+        y: 97
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -853,12 +853,12 @@ TextureImporter:
       name: MiniMage_27
       rect:
         serializedVersion: 2
-        x: 105
-        y: 96
-        width: 19
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 106
+        y: 97
+        width: 17
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -875,12 +875,12 @@ TextureImporter:
       name: MiniMage_28
       rect:
         serializedVersion: 2
-        x: 137
-        y: 96
-        width: 23
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 138
+        y: 97
+        width: 21
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -897,12 +897,12 @@ TextureImporter:
       name: MiniMage_29
       rect:
         serializedVersion: 2
-        x: 169
-        y: 96
-        width: 23
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 170
+        y: 97
+        width: 21
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -919,12 +919,12 @@ TextureImporter:
       name: MiniMage_30
       rect:
         serializedVersion: 2
-        x: 201
-        y: 96
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 202
+        y: 97
+        width: 19
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -941,12 +941,12 @@ TextureImporter:
       name: MiniMage_31
       rect:
         serializedVersion: 2
-        x: 233
-        y: 96
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 234
+        y: 97
+        width: 19
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -963,12 +963,12 @@ TextureImporter:
       name: MiniMage_32
       rect:
         serializedVersion: 2
-        x: 265
-        y: 96
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 266
+        y: 97
+        width: 17
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -985,12 +985,12 @@ TextureImporter:
       name: MiniMage_33
       rect:
         serializedVersion: 2
-        x: 9
-        y: 64
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 65
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1007,12 +1007,12 @@ TextureImporter:
       name: MiniMage_34
       rect:
         serializedVersion: 2
-        x: 40
-        y: 64
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 41
+        y: 65
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1029,12 +1029,12 @@ TextureImporter:
       name: MiniMage_35
       rect:
         serializedVersion: 2
-        x: 71
-        y: 64
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 72
+        y: 65
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1051,12 +1051,12 @@ TextureImporter:
       name: MiniMage_36
       rect:
         serializedVersion: 2
-        x: 103
-        y: 64
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 104
+        y: 65
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1073,12 +1073,12 @@ TextureImporter:
       name: MiniMage_37
       rect:
         serializedVersion: 2
-        x: 135
-        y: 64
-        width: 20
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 136
+        y: 65
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1095,12 +1095,12 @@ TextureImporter:
       name: MiniMage_38
       rect:
         serializedVersion: 2
-        x: 167
-        y: 64
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 168
+        y: 65
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1117,12 +1117,12 @@ TextureImporter:
       name: MiniMage_39
       rect:
         serializedVersion: 2
-        x: 199
-        y: 64
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 65
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1139,12 +1139,12 @@ TextureImporter:
       name: MiniMage_40
       rect:
         serializedVersion: 2
-        x: 231
-        y: 64
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 232
+        y: 65
+        width: 16
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1161,12 +1161,12 @@ TextureImporter:
       name: MiniMage_41
       rect:
         serializedVersion: 2
-        x: 264
-        y: 64
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 265
+        y: 65
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1183,12 +1183,12 @@ TextureImporter:
       name: MiniMage_42
       rect:
         serializedVersion: 2
-        x: 5
-        y: 32
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 33
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1205,12 +1205,12 @@ TextureImporter:
       name: MiniMage_43
       rect:
         serializedVersion: 2
-        x: 39
-        y: 32
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 40
+        y: 33
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1227,12 +1227,12 @@ TextureImporter:
       name: MiniMage_44
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 1
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1249,12 +1249,12 @@ TextureImporter:
       name: MiniMage_45
       rect:
         serializedVersion: 2
-        x: 37
-        y: 0
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 38
+        y: 1
+        width: 18
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1271,12 +1271,12 @@ TextureImporter:
       name: MiniMage_46
       rect:
         serializedVersion: 2
-        x: 70
-        y: 0
-        width: 19
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 71
+        y: 1
+        width: 17
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1293,12 +1293,12 @@ TextureImporter:
       name: MiniMage_47
       rect:
         serializedVersion: 2
-        x: 102
-        y: 0
-        width: 19
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 103
+        y: 1
+        width: 17
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1315,12 +1315,12 @@ TextureImporter:
       name: MiniMage_48
       rect:
         serializedVersion: 2
-        x: 134
-        y: 0
-        width: 19
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 135
+        y: 1
+        width: 17
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1337,12 +1337,12 @@ TextureImporter:
       name: MiniMage_49
       rect:
         serializedVersion: 2
-        x: 166
-        y: 0
-        width: 19
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 167
+        y: 1
+        width: 17
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1359,12 +1359,12 @@ TextureImporter:
       name: MiniMage_50
       rect:
         serializedVersion: 2
-        x: 195
-        y: 0
-        width: 22
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 196
+        y: 1
+        width: 20
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1381,12 +1381,12 @@ TextureImporter:
       name: MiniMage_51
       rect:
         serializedVersion: 2
-        x: 227
-        y: 0
-        width: 22
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 228
+        y: 1
+        width: 20
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1403,12 +1403,12 @@ TextureImporter:
       name: MiniMage_52
       rect:
         serializedVersion: 2
-        x: 259
-        y: 0
-        width: 22
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 260
+        y: 1
+        width: 20
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1425,7 +1425,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f132e7745bf113347988499bb15a4768
     internalID: 0
     vertices: []
     indices: 
@@ -1433,7 +1433,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       MiniMage_0: 1124035923732166699
       MiniMage_1: 1110048961288214596
