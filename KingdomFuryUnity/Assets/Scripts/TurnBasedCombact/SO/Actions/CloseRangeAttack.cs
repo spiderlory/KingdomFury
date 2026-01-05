@@ -1,4 +1,6 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using TurnBasedCombact.Model;
 using UnityEngine;
 using UnityEngine.Playables;
@@ -17,12 +19,14 @@ namespace TurnBasedCombact.SO.Actions
             Vector2 startingPosition = combactUnit.transform.position;
             Vector2 target = enemyPosition - (enemyPosition - startingPosition).normalized * 0.5f;
             
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.2f);
         
             yield return combactUnit.executor.MoveTo(target);
-
-            CombactEventManager.istance.target = combactInfo.enemyTargets[0];
-            CombactEventManager.istance.amount = 10;
+            
+            Queue<CombactEvent> combactEventsQueue = new Queue<CombactEvent>(); 
+            combactEventsQueue.Enqueue(new CombactEvent(CombactEventType.Damage, combactInfo.enemyTargets, 10));
+                
+            CombactEventManager.instance.SetEventsQueue(combactEventsQueue);
                 
             yield return combactUnit.executor.ExecuteTimeline(timeline);
             

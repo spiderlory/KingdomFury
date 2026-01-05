@@ -101,4 +101,50 @@ Gestione Mondo Aperto:
         Le due cose sono sincronizzate utilizzando il normalized time dell'animazione di salto. In questo modo è possibile cambiare la velocità del salto semplicemente modificando la velocità della clip nell'animator.
 
 Gestione del combattimento:
-    
+    Punti da affrontare:
+        controllo del flusso del combattimento e esecuzione delle azioni
+        statistiche dei personaggi
+        gestione malus/bonus
+
+    per il combattimento a turni ho optato per un sistema basato su azioni. Definisco un ComabactManager che gestisce il flusso del combattimento scegliendo di chi è il turno.
+    I personaggi invece saranno dei semplici esecutori di azioni, daranno la lista delle azioni che possono svolgere e il giocatore potrà scegliere tra queste.
+    Per ogni azione scelta dovrà essere data una serie di input, come ad esempio il bersaglio dell'azione.
+    Ogni azione viene rappresentata come una sequenza di direttive. Ogni direttiva verrà poi implementata sul personaggio in modo da poter gestire correttamente il modo in cui deve essere svolta quell'azione.
+
+    Le direttive possono essere del tipo: MoveTo(pos), ExecuteAttack(id), ExecuteTimeline etc... ma dipende da come viene implementato il resto.
+    Il personaggio dovrà mettere a disposizione dei metodi per eseguire tali direttive e mantenere anche la lista delle azioni.
+
+    Per le azioni conviene classificarle in un albero, in modo da gestirle meglio. Nell'ui viene mostrato ogni volta i figli del nodo selezionato. In alternativa si deve definire una struttura fissa specificando le varie categorie e cosa accade se viene premuto.
+    Scegliere un albero permette di poter navigare comodamente le azioni e personalizzarle facilmente per i vari personaggi. Ovviamente cercando sempre di mantenere una certa logica.
+
+    In generale mi aspetto: attacchi, inventario, fuga e forse mosse di supporto (tipo abilità che aumentano le statistiche etc)
+
+    Va gestita anche la possibilità di aggiungere meccaniche extra.
+
+    Gestione bonus/malus:
+        Le vere e proprie azioni del gioco verranno svolte tramite gli eventi. Questi possono essere invocati da un personaggio in seguito ad un'azione e hanno effetto sullo stato del gioco.
+
+        Gli eventi devono essere gestiti da un modulo apposito.
+
+        Questo modulo può anche occuparsi della gestione dei cambiamenti di stato dei giocatori.
+
+        I cambiamenti di stato possono avere un numero di turni (un turno viene contato quando si ritorna allo stesso giocatore) di attività, effetto che dura per tutto il tempo oppure effetto che si ri attiva ad ogni turno. 
+        Questi devono essere gestiti da un modulo apposito, che sia il gestore di eventi o uno nuovo.
+
+        L'applicazione dell'effetto dei bonus malus può essere gestita dal modulo o dagli stessi personaggi.
+        
+        Se il personaggio li gestisce ha più controllo su quanto quel malus abbia più o meno impatto. Tipo "avvelenamento" potrebbe fare meno danno se il giocatore ha uno specifico oggetto.
+        Di contro deve mettere a disposizione svariati metodi per i vari tipi di effetto e il gestore deve condividere da che tipo di attacco è stato ferito.
+
+        Di base ogni personaggio dovrebbe aver associato un proprio gestore dei malus/bonus.
+
+
+        Come rappresento i malus/bonus?
+            Un malus o bonus può essere passivo o attivo. 
+            
+            I bonus passivi modificano le statistiche del personaggio e possono durare per l'intero combattimento o un numero definito di turni.
+
+            I modificatori attivi invece permettono di attivare effetti/direttive o applicare modificatori passivi in seguito al verificarsi delle loro condizioni. Tipo: dopo un attacco avvelena l'avversario.
+            
+
+

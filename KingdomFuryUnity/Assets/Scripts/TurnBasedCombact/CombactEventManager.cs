@@ -1,20 +1,22 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using TurnBasedCombact.Model;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Timeline;
 
 public class CombactEventManager : MonoBehaviour
 {
-    public CombactUnit target;
-    public int amount;
+    private Queue<CombactEvent> combactEventsQueue = new Queue<CombactEvent>();
     
-    public static CombactEventManager istance = null;
-
+    public static CombactEventManager instance = null;
+    
     private void Start()
     {
-        if (istance == null)
+        if (instance == null)
         {
-            istance = this;
+            instance = this;
         }
         else
         {
@@ -22,14 +24,54 @@ public class CombactEventManager : MonoBehaviour
         }
     }
 
-    public void Heal()
+    
+    public void ExecuteNext()
+    {
+        ExecuteEvent(combactEventsQueue.Dequeue());
+    }
+
+    public void ExecuteAll()
+    {
+        while (combactEventsQueue.Count > 0)
+        {
+            ExecuteEvent(combactEventsQueue.Dequeue());
+        }
+    }
+
+    private void ExecuteEvent(CombactEvent combactEvent)
+    {
+        switch (combactEvent.CombactEventType)
+        {
+            case CombactEventType.Heal:
+                Heal(combactEvent);
+                break;
+            case CombactEventType.Damage:
+                Damage(combactEvent);
+                break;
+        }
+    }
+
+    public void ClearQueue()
+    {
+        combactEventsQueue.Clear();
+    }
+
+    public void SetEventsQueue(Queue<CombactEvent> queue)
+    {
+        combactEventsQueue = queue;
+    }
+    
+    public void Heal(CombactEvent combactEvent)
     {
         print("healed for");
     }
 
-    public void Damage()
-    { 
+    public void Damage(CombactEvent combactEvent)
+    {
+        float amount = combactEvent.value;
+        
         print("hit:" + amount.ToString());
-        target.HitAnimation();
+
+        combactEvent.targets.ForEach(x => x.HitAnimation());
     }
 }
