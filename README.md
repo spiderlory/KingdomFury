@@ -88,7 +88,8 @@ Per ogni personaggio sono previste:
   La logica di movimento è gestita tramite una **matrice tridimensionale 3×3** centrata
   sul personaggio, che viene aggiornata ad ogni spostamento e utilizzata per la validazione
   del movimento.
-
+  
+  ![Movimento](https://github.com/user-attachments/assets/1bb01068-d4f9-45b5-a4c6-06dc1825c59f)
 ---
 
 ### Combat System
@@ -110,8 +111,10 @@ Per ogni personaggio sono previste:
   - Le direttive vengono eseguite sequenzialmente per costruire il comportamento finale
   - Ogni personaggio dispone di un modulo **DirectiveExecutor** che espone e implementa
     le direttive specifiche per quel personaggio
-
+    
+![Attacco](https://github.com/user-attachments/assets/86550e35-e62a-439e-b118-11a38baac5c0)
 ---
+
 
 ## Sistemi sviluppati
 - **State Machine** per la gestione del comportamento del personaggio nell’open world
