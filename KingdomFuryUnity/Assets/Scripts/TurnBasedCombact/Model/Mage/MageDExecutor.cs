@@ -63,7 +63,6 @@ namespace TurnBasedCombact.Model.Mage
             }
             animator.SetBool("IsWalking", false);
             spriteRenderer.flipX = false;
-
         }
 
         public IEnumerator ExecuteTimeline(PlayableAsset timeline)

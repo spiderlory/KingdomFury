@@ -8,7 +8,6 @@ public class CombactManager : MonoBehaviour
 
     public CombactUnit combactUnit;
     public CombactUnit enemy;
-    public CombactUnit enemy2;
 
     public static CombactManager istance = null;
 
@@ -30,9 +29,7 @@ public class CombactManager : MonoBehaviour
         CombactInfo combactInfo = new CombactInfo();
         combactInfo.enemyTargets = new List<CombactUnit>();
         combactInfo.enemyTargets.Add(enemy);
-        combactInfo.enemyTargets.Add(enemy2);
         
         combactUnit.ExecuteAction(0,  combactInfo);
     }
-
 }

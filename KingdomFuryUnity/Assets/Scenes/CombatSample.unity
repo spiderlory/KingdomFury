@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 8101929}
   - component: {fileID: 8101930}
   - component: {fileID: 8101931}
+  - component: {fileID: 8101932}
   m_Layer: 0
   m_Name: MiniMage_0
   m_TagString: Untagged
@@ -254,9 +255,10 @@ PlayableDirector:
   - key: {fileID: -7851119147543969882, guid: dfd28b7ef5b15f547a7e12f9046fd4fe, type: 2}
     value: {fileID: 8101928}
   - key: {fileID: 7397331127620546839, guid: dfd28b7ef5b15f547a7e12f9046fd4fe, type: 2}
-    value: {fileID: 1445036584}
+    value: {fileID: 1192319317}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 9a2340acdce7955479a91558c4d7e3d8: {fileID: 1736688242}
 --- !u!114 &8101930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,7 +266,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8101924}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3ef695fedb943cd9adac6610e8d9d4e, type: 3}
   m_Name: 
@@ -278,11 +280,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8101924}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db1f0f6f2a63410e87c45a2aae1c0eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TurnBasedCombact.Model.test.MageDExecutor
+--- !u!114 &8101932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8101924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5341145126f04f4d8202bffb1a53fa7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.ActionsSystem.ActionRunner
+  enemy: {fileID: 1736688242}
+  asset: {fileID: 11400000, guid: dfd28b7ef5b15f547a7e12f9046fd4fe, type: 2}
 --- !u!1 &639622517
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,9 +564,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1445036582}
-        m_TargetAssemblyTypeName: CombactManager, Assembly-CSharp
-        m_MethodName: StartAction
+      - m_Target: {fileID: 8101932}
+        m_TargetAssemblyTypeName: Systems.CombactActionSystem.ActionRunner, Assembly-CSharp
+        m_MethodName: Test
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -598,6 +614,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151879463}
   m_CullTransparentMesh: 1
+--- !u!1 &1192319316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192319319}
+  - component: {fileID: 1192319318}
+  - component: {fileID: 1192319317}
+  m_Layer: 0
+  m_Name: SignalDispatcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1192319317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192319316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 4c93725a08c2aef408a52adcab3d710e, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1192319318}
+          m_TargetAssemblyTypeName: Systems.CombactActionSystem.SignalDispatcher,
+            Assembly-CSharp
+          m_MethodName: DispatchNext
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1192319318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192319316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2185c5b6b85b4437b2da9495d0b0d0c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.CombactActionSystem.SignalDispatcher
+--- !u!4 &1192319319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192319316}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.33, y: 0.08437, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1445036581
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1445036582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,7 +723,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CombactManager
   combactUnit: {fileID: 8101930}
   enemy: {fileID: 1736688244}
-  enemy2: {fileID: 1950505157}
 --- !u!4 &1445036583
 Transform:
   m_ObjectHideFlags: 0
@@ -14090,6 +14181,7 @@ GameObject:
   - component: {fileID: 1736688245}
   - component: {fileID: 1736688244}
   - component: {fileID: 1736688243}
+  - component: {fileID: 1736688249}
   m_Layer: 0
   m_Name: MiniMage_0 (1)
   m_TagString: Untagged
@@ -14240,6 +14332,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1736688249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736688242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f8bc95c62343a7b7183929297ec956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Systems.CombactActionSystem.Model.Unit
 --- !u!1 &1783458046
 GameObject:
   m_ObjectHideFlags: 0
@@ -14552,3 +14656,4 @@ SceneRoots:
   - {fileID: 1445036583}
   - {fileID: 1584061226}
   - {fileID: 1639835698}
+  - {fileID: 1192319319}
